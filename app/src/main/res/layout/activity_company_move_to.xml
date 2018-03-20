@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.aaa.campussystem.Activities.CompanyMoveToActivity">
+<include
+    layout="@layout/toolbar1"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:src="@drawable/three_dots"
+        android:scaleType="centerInside"
+        />
+
+    <TextView
+        android:id="@+id/one"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:text="COMPANY NAME"
+        android:layout_margin="10dp"
+        android:textColor="#3dae94"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+    >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="faculty :"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/two"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="faculty"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:textSize="15dp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="phone :"
+        android:textColor="#000"
+        android:textSize="15sp"/>
+        <TextView
+            android:id="@+id/three"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="phone"
+            android:gravity="center"
+            android:textColor="#000"
+            android:textStyle="normal"
+            android:textSize="15sp"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:layout_marginTop="10dp"
+       >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="address :"
+            android:textColor="#000"
+            android:textSize="15sp"/>
+    <TextView
+        android:id="@+id/four"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="address"
+        android:gravity="center"
+        android:textColor="#000"
+        android:textStyle="normal"
+        android:textSize="15sp"/>
+</LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Company Job LIsts"
+        android:textColor="#000"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:background="@drawable/text_view_background"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/list_view2"
+        />
+</LinearLayout>

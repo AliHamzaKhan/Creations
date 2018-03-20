@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    tools:context="com.example.aaa.campussystem.Activities.CompanyPostAJobActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="job posting"
+        android:gravity="center"
+        android:textColor="#52d9c2"
+        android:textSize="20sp"/>
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        android:src="@drawable/common_google_signin_btn_icon_light"
+        android:layout_marginBottom="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/text_view_background"
+        android:padding="10dp">
+    <EditText
+        android:id="@+id/Designation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Designation"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9" />
+    <EditText
+        android:id="@+id/sellery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sellery"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9" />
+    <EditText
+        android:id="@+id/experience"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="experience"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9" />
+    <EditText
+        android:id="@+id/information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="details"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9" />
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="email"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9"
+       />
+    <EditText
+        android:id="@+id/phoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="phoneNo"
+        android:textColor="#30b9a9"
+        android:textColorHint="#30b9a9"
+     />
+    </LinearLayout>
+    <Button
+        android:id="@+id/post_job"
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:textColor="#30b9a9"
+        android:background="@drawable/text_view_background"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:text="post_job"/>
+</LinearLayout>
